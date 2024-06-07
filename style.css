@@ -7,9 +7,10 @@
 
 .c1 {
     background-color: #D0BFFF;
-    height: 30vh;
-    width: 500px;
+    height: 45vh;
+    width: 450px;
     border-radius: 10px;
+    overflow-y: scroll;
 }
 
 .title {
@@ -17,4 +18,5 @@
     font-size: 30px;
     font-weight: bolder;
     color: #27005D !important;
+    margin-top: 50px;
 }
