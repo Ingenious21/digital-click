@@ -12,7 +12,7 @@ function updateClock() {
 
     const dayOfWeek = daysOfWeek[now.getDay()];
     const day = now.getDate();
-    const month = monthsOfYear[now.getMonth()]; // Months are zero-indexed
+    const month = monthsOfYear[now.getMonth()]; 
     const year = now.getFullYear();
 
     // Update the clock and date elements
@@ -22,5 +22,6 @@ function updateClock() {
 
 // Call updateClock every second
 setInterval(updateClock, 1000);
+
 // Initial call to display the clock and date immediately
 updateClock();
