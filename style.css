@@ -20,3 +20,13 @@
     color: #27005D !important;
     margin-top: 45px;
 }
+
+#clock {
+    color: #fff;
+    font-weight: bolder;
+}
+
+#date {
+    color: #fff;
+    font-weight: light;
+}
