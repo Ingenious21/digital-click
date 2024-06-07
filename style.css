@@ -1,0 +1,21 @@
+.container-fluid {
+    background-color: #512B81;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.c1 {
+    background-color: #D0BFFF;
+    height: 50vh;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #27005D !important;
+    margin-top: 20px;
+}
