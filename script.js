@@ -16,7 +16,7 @@ function updateClock() {
     const year = now.getFullYear();
 
     // Update the clock and date elements
-    document.getElementById('clock').textContent = `${hours}:${minutes}:${seconds}`;
+    document.getElementById('clock').innerHTML = `${hours}:${minutes}:${seconds}`;
     document.getElementById('date').innerHTML = `${dayOfWeek}, ${day} ${month} ${year}`;
 }
 
